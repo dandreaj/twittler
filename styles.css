@@ -1,3 +1,88 @@
-h1 {
-  color: red;
-};
+body {
+  background-color: #c2e8f2;
+  margin: 0;
+  font-family: Playfair Display;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Muli;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #060f60;
+}
+
+li {
+  float: left;
+}
+
+li span {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+#siteTitle {
+  font-size: 30px;
+}
+
+#updateTweets {
+  /*height: 10px;*/
+  border-radius: 2px;
+  background-color: white;
+  color: #060f60;
+}
+
+#tweetBody {
+  margin-top: 80px;
+  padding: 50px;
+}
+
+#tweetBody div {
+  margin: 5px;
+  padding: 5px;
+  border-bottom: dotted #fbfbfb;
+}
+
+#tweetBody span {
+  padding: 10px;
+}
+
+#tweetBody p {
+  padding: 0;
+  margin: 0;
+}
+
+#tweetBody p span {
+  padding: 0px 10px 0px 0px;
+  margin-top, margin-bottom, margin-left: 0;
+}
+
+#tweetBody .user {
+  font-family: Muli;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#tweetBody .user:hover {
+  text-decoration: underline;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  background-color: #111;
+}

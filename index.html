@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="jquery.js"></script>
-    <script src="data_generator.js"></script>
-    <script src="data_manipulator.js"></script>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <h1>Twittler</h1>
-      <button id="updateTweets">Update Tweets</button>
-    </header>
-    <!--Tweet div-->
 
-  </body>
+<head>
+  <script src="jquery.js"></script>
+  <script src="data_generator.js"></script>
+  <script src="data_manipulator.js"></script>
+  <script src="jquery.timeago.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair Display">
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li><span id="siteTitle">Twittler</span></li>
+      <li style="float:right;"><span class="button" id="updateTweets">Update Tweets</span></li>
+      <!-- <li><a href="#contact">Contact</a></li>
+      <li style="float:right"><a class="active" href="#about">About</a></li> -->
+    </ul>
+    <!-- <h1>Twittler</h1> -->
+
+  </header>
+  <div id="tweetBody">
+
+  </div>
+</body>
+
 </html>
